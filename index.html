@@ -30,19 +30,16 @@
           Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
           "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
           "Noto Color Emoji";
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
+          height:100%;
+          background: url(img/bgimg.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
       }
 
-      .bg {
-        background:url('img/bgimg.png');
-        background-size: auto 100%;
-        background-repeat: no-repeat;
-        background-position: left top;
-
-      }
+  
 
 
    
@@ -51,7 +48,7 @@
     </style>
   </head>
 
-  <body class="bg leading-relaxed tracking-wide flex flex-col">
+  <body class="leading-relaxed tracking-wide flex flex-col">
     <!--Nav-->
     <nav id="header" class="w-full z-30 top-0 text-white py-1 lg:py-6">
       <div
@@ -78,12 +75,12 @@
     <div class="container mx-auto h-screen">
       <div class="text-center px-3 lg:px-0">
         <h1
-          class="my-4 text-2xl md:text-3xl lg:text-5xl font-black leading-tight"
+          class="text-white my-4 text-2xl md:text-3xl lg:text-5xl font-black leading-tight"
         >
           Coming Soon!
         </h1>
         <p
-          class="leading-normal text-gray-800 text-base md:text-xl lg:text-2xl mb-8"
+          class="leading-normal text-white text-base md:text-xl lg:text-2xl mb-8"
         >
           Find the menus of bars and restaurants around you.
         </p>
